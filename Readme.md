@@ -94,3 +94,19 @@ Envia o repositório local para o remoto
 
 https://github.com/shpsyte/git-course.git
 Copia um repositorio remoto para local
+
+# git checkout -b <nome>
+
+Cria um novo branch para enviar commit
+
+# git branch
+
+Mostra os branch do repositório
+
+# git checkout master
+
+Navega e altera os branch
+
+# git branch -D testing
+
+Deleta um branch
