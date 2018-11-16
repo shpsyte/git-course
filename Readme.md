@@ -110,3 +110,11 @@ Navega e altera os branch
 # git branch -D testing
 
 Deleta um branch
+
+# git stach
+
+Guarda modificações que ainda não foram comitadas e chamar quando nessecário, usado para navegar entre branch
+
+## git stach list
+
+Lista as stash criadas WIP (Work in Progress)
