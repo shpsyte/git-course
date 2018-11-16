@@ -118,19 +118,3 @@ Guarda modificações que ainda não foram comitadas e chamar quando nessecário
 ## git stach list
 
 Lista as stash criadas WIP (Work in Progress)
-
-# git config --global alias.s status
-
-Cria um alias para comandos
-
-# git config --global alias.z commit -am
-
-# git tag -a 1.0.0 -m "Read"
-
-Versiona o código com tag
-
-## git push origin master --tags
-
-# git Revert
-
-R
