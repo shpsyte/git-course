@@ -54,6 +54,10 @@ Adiciona os arquivos para o repositório
 
 Efetua um commit das alterações, a opção -a adiciona os aquivos ao repositório
 
+## git commit -m "Trigger" --alow-empty
+
+Faz um commit forçado, apenas para disparar um trigger
+
 # git checkout <nome do arquivo>
 
 Retorna um arquivo para um estado antes da edição
@@ -67,3 +71,21 @@ Retorna um arquivo para um estado antes da edição
 --hard: Mata o commit e volta tudo (cuidado)
 
 # GitHub
+
+O Github utiliza o SSH que autentica um usuário ao servidor
+[Gerar Chaves](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
+
+# git remote
+
+## git remote add origin https://github.com/shpsyte/git-course.git
+
+Adiciona um repositorio remoto ao local
+
+## git remote -v
+
+Mostra informações do repositório remoto
+
+# git push
+
+git push -u origin master (-u track)
+Envia o repositório local para o remoto
