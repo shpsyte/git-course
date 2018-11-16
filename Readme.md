@@ -85,7 +85,12 @@ Adiciona um repositorio remoto ao local
 
 Mostra informações do repositório remoto
 
-# git push
+# git push origin master
 
 git push -u origin master (-u track)
 Envia o repositório local para o remoto
+
+# git clone <repositorio>
+
+https://github.com/shpsyte/git-course.git
+Copia um repositorio remoto para local
